@@ -6,8 +6,8 @@ import Theme from './src/theme/default';
 
 export default function App() {
   return (
-    <ThemeProvider theme={Theme}>
-      <RootStack />
-    </ThemeProvider>
+      <ThemeProvider theme={Theme}>
+        <RootStack />
+      </ThemeProvider>
   );
 }
